@@ -1,0 +1,13 @@
+.navbar-brand {
+  float: none;
+  background-color:#cbb4d4;
+
+.navbar-center {
+    position: absolute;
+    width: 80%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: 80%;
+    height:100%;
+}
