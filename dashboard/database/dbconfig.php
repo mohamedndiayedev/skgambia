@@ -181,9 +181,9 @@
   $row42 = mysqli_num_rows($query_run42);
 
 $query49 = "SELECT id FROM tbl_order ORDER BY order_id";
-  $query_run42 = mysqli_query($connection, $query42);
+  $query_run49 = mysqli_query($connection, $query49);
 
-  $row42 = mysqli_num_rows($query_run42);
+  $row49 = mysqli_num_rows($query_run49);
 
 
 ?>
