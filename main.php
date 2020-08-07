@@ -317,8 +317,8 @@
                     </div><!--row ends-->
                 
                 <!--row begins-->
-		   <div class="row">
-		    <div class="col-lg-3 col-sm-6">
+           <div class="row">
+            <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
                                 <div class="row">
@@ -493,7 +493,7 @@
                             </div>
                         </div>
                     </div><!--row ends-->
-		    
+            
                     <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
@@ -521,8 +521,8 @@
                             </div>
                         </div>
                     </div><!--row ends-->
-		    
-		     <div class="col-lg-3 col-sm-6">
+            
+             <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
                                 <div class="row">
@@ -549,7 +549,7 @@
                             </div>
                         </div>
                     </div><!--row ends-->
-		    
+            
                     <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
@@ -577,7 +577,7 @@
                             </div>
                         </div>
                     </div><!--row ends-->
-		    
+            
                     <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
@@ -605,10 +605,10 @@
                             </div>
                         </div>    
                     </div><!--row ends-->
-		    
-		   
-		    
-		    <div class="col-lg-3 col-sm-6">
+            
+           
+            
+            <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
                                 <div class="row">
@@ -636,7 +636,7 @@
                         </div>
                     </div><!--row ends-->
                     
-		    
+            
                     <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
@@ -664,7 +664,7 @@
                             </div>
                         </div>
                  </div><!--row ends-->
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>		    
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>            
                     
                  
                <img src="afribank.JPG" alt="uni-global" class="centery">
@@ -677,8 +677,8 @@
                 height: 70px;
                 }
                 </style>
-		    <br/><br/><br/>
-		    
+            <br/><br/><br/>
+            
                <div class="col-lg-3 col-sm-6">
                         <div class="card">
                             <div class="content">
@@ -1095,6 +1095,36 @@
                     </div>
                 </div>
                 <!--row begins-->
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="card">
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <div class="icon-big icon-danger text-center">
+                                            <i class="ti-files"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <div class="numbers">
+                                            <p><strong>Generate Invoice</strong></p>
+                                            <?php echo $row49; ?>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="dashboard/invoice.php">
+                                    <div class="footer">
+                                    <hr />
+                                    <div class="stats">
+                                        <i class="ti-arrow-right"></i>View
+                                    </div>
+                                </div>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--row begins-->
 
  <!--                    <div class="col-lg-3 col-sm-6">
                         <div class="card">
@@ -1170,13 +1200,13 @@
 
     <!--   Core JS Files   -->
     <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 
-	<!--  Checkbox, Radio & Switch Plugins -->
-	<script src="assets/js/bootstrap-checkbox-radio.js"></script>
+    <!--  Checkbox, Radio & Switch Plugins -->
+    <script src="assets/js/bootstrap-checkbox-radio.js"></script>
 
-	<!--  Charts Plugin -->
-	<script src="assets/js/chartist.min.js"></script>
+    <!--  Charts Plugin -->
+    <script src="assets/js/chartist.min.js"></script>
 
     <!--  Notifications Plugin    -->
     <script src="assets/js/bootstrap-notify.js"></script>
@@ -1185,26 +1215,26 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
     <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
-	<script src="assets/js/paper-dashboard.js"></script>
+    <script src="assets/js/paper-dashboard.js"></script>
 
-	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
-	<script src="assets/js/demo.js"></script>
+    <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+    <script src="assets/js/demo.js"></script>
 
-	<script type="text/javascript">
-    	$(document).ready(function(){
+    <script type="text/javascript">
+        $(document).ready(function(){
 
-        	demo.initChartist();
+            demo.initChartist();
 
-        	$.notify({
-            	icon: 'ti-gift',
-            	message: "Welcome to <b> Sky High Management System admin</b> - an ultimate & beautiful system for a real estate company."
+            $.notify({
+                icon: 'ti-gift',
+                message: "Welcome to <b> Sky High Management System admin</b> - an ultimate & beautiful system for a real estate company."
 
             },{
                 type: 'success',
                 timer: 3000
             });
 
-    	});
-	</script>
+        });
+    </script>
 
 </html>
