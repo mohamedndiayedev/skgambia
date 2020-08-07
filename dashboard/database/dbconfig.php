@@ -180,6 +180,11 @@
 
   $row42 = mysqli_num_rows($query_run42);
 
+$query42 = "SELECT id FROM evaluation ORDER BY id";
+  $query_run42 = mysqli_query($connection, $query42);
+
+  $row42 = mysqli_num_rows($query_run42);
+
 
 ?>
 
