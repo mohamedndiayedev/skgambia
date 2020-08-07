@@ -222,12 +222,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noindex, nofollow">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.dataTables.min.js"></script>
-    <script src="js/dataTables.bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="csss/bootstrap.min.css">
+    <script src="jss/jquery.min.js"></script>
+    <script src="jss/bootstrap.min.js"></script>
+    <script src="jss/jquery.dataTables.min.js"></script>
+    <script src="jss/dataTables.bootstrap.min.js"></script>
+    <link rel="stylesheet" href="csss/dataTables.bootstrap.min.css">
     <style>
       /* Remove the navbar's default margin-bottom and rounded borders */ 
       .navbar {
@@ -274,8 +274,8 @@
       box-sizing:border-box;
       }
     </style>
-    <link rel="stylesheet" href="css/datepicker.css">
-    <script src="js/bootstrap-datepicker1.js"></script>
+    <link rel="stylesheet" href="csss/datepicker.css">
+    <script src="jss/bootstrap-datepicker1.js"></script>
     <script>
       $(document).ready(function(){
         $('#order_date').datepicker({
