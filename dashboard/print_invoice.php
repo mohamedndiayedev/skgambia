@@ -3,7 +3,7 @@
 if(isset($_GET["pdf"]) && isset($_GET["id"]))
 {
  require_once 'pdf.php';
- include('database_connection.php');
+ include('database/database_connection.php');
  $output = '';
  $statement = $connect->prepare("
   SELECT * FROM tbl_order 
